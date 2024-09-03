@@ -1,0 +1,37 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.footer-item p:nth-child(even){
+    padding: 50px;
+}
+.footer h1:first-child{
+    color:#3498db;
+    border-bottom: 3px solid #3498db;
+}
+.iconi{
+   
+   background-color: rgb(204, 7, 85);
+
+}
+
+.iconf,.iconl{
+    background-color: blue;
+}
+.icont{
+    background-color: black;
+}
+.icony{
+    background-color: red;
+}
+.icon{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.footer-item{
+    padding: 10px;
+}
+

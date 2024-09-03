@@ -1,0 +1,64 @@
+.store-list {
+    color: blue;
+    background-size: cover;
+    
+    background-position: center;
+    font-family: Arial, sans-serif;
+    /* background-image: linear-gradient(rgb(50, 72, 125),rgb(53, 7, 96)); */
+  }
+  
+  .Storeh1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    padding: 20px;
+  }
+  
+  .store-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .store-item {
+    background-image: linear-gradient(rgb(50, 72, 125),rgb(53, 7, 96));
+    border-radius: 8px;
+    overflow: hidden;
+    /* padding: 10px; */
+    text-align: center;
+    color: #ddd;
+  }
+  
+  .store-image-container {
+    margin-bottom: 10px;
+  }
+  
+  .store-image {
+    width: 100%;
+    height: 300px;
+    height: auto;
+   
+    border-radius: 4px;
+  }
+  
+  .store-details {
+    font-size: 0.9rem;
+    padding-bottom: 20px;
+  }
+  
+  .store-details h2 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+
+  /* styles.css */
+/* ... (your existing styles) */
+.store-image {
+  width: 100%;
+  height: 300px; /* Set a consistent height for all images */
+  object-fit: cover; /* Maintain aspect ratio and crop if necessary */
+  border-radius: 4px;
+}
